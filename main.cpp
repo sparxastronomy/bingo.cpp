@@ -1,5 +1,6 @@
 #include<iostream.h>
 #include<conio.h>
+#include<stdlib.h>
 
 void user( int user[5][5])
 {int i,j;
@@ -14,5 +15,7 @@ void user( int user[5][5])
 
 void computer(int computer[5][5])
 {
- 
+ for(i=0;i<5;i++)
+   for(j=0;j<5;j++)
+     computer[i][j]=random(
 }
